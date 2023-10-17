@@ -218,6 +218,7 @@ def man(fail):
     return stage[fail]
 
 def main():
+    print("Created by sy7aries https://github.com/SY7ARIES and Fixed Up by NXTdiscord https://github.com/NXTdiscord/")
     word = theme_setup()
     play(word)
     while input("PLAY AGAIN Y/N").upper() == "Y":
